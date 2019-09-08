@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5808756615019680616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5808756615019680630}
+  - component: {fileID: 5808756615019680617}
+  m_Layer: 0
+  m_Name: RoadCreator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5808756615019680630
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5808756615019680616}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.7189865, y: 9.0859375, z: 50.82448}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5808756615019680617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5808756615019680616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2df72049139f3ed469a69ca9666c98c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  platforms:
+  - Material: {fileID: 0}
+    Turn: 0
+    Angle: 10
+    Size: {x: 10, y: 1, z: 50}
+    StartPoint: {fileID: 0}
+  - Material: {fileID: 0}
+    Turn: 0
+    Angle: 0
+    Size: {x: 10, y: 1, z: 50}
+    StartPoint: {fileID: 0}
+  - Material: {fileID: 0}
+    Turn: 0
+    Angle: -20
+    Size: {x: 10, y: 1, z: 50}
+    StartPoint: {fileID: 0}
+  turnPlatformPrefab: {fileID: 2980577595580777752, guid: adb41b138c8ca0f4dbd123bd06f48f58,
+    type: 3}
+  startPointPrefab: {fileID: 2857011322665805350, guid: b59258a94659da94185dc751826ff6ab,
+    type: 3}
+  defaultMaterial: {fileID: 2100000, guid: dce2a31b3599a6043880b08e99caaa9a, type: 2}
